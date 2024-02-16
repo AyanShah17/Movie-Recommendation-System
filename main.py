@@ -52,4 +52,5 @@ def recommend(movies1):
         print(movies2.iloc[i[0]].title)
 
         
-recommend(movies1)
+user_input = input('Enter The Movie Title : ')
+recommend(user_input)
